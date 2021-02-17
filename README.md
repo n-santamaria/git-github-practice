@@ -13,7 +13,7 @@
 
 ## Practice directory:-
 
-`/home/neville/Practice/github`
+<code>/home/neville/Practice/github</code>
 
 
 ## Git Basic Commands:-
@@ -29,35 +29,35 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>`$ git init`</td>
+			<td><code>$ git init</code></td>
 			<td>Initialize the local git repository</td>
 		</tr>
 		<tr>
-			<td>`$ git add <file>`</td>
+			<td><code>$ git add <file></code></td>
 			<td>Add the files to the staging area i.e. index</td>
 		</tr>
 		<tr>
-			<td>`$ git rm --cached <file>`</td>
+			<td><code>$ git rm --cached <file></code></td>
 			<td>To remove the file from the staging area i.e. index</td>
 		</tr>
 		<tr>
-			<td>`$ git status`</td>
+			<td><code>$ git status</code></td>
 			<td>To check the files in the staging area</td>
 		</tr>
 		<tr>
-			<td>`$ git commit`</td>
+			<td><code>$ git commit</code></td>
 			<td>Commit the files from the staging area i.e. index</td>
 		</tr>
 		<tr>
-			<td>`$ git branch <branch_name>`</td>
+			<td><code>$ git branch <branch_name></code></td>
 			<td>Create a new branch</td>
 		</tr>
 		<tr>
-			<td>`$ git checkout <branch_name>`</td>
+			<td><code>$ git checkout <branch_name></code></td>
 			<td>Checkout to the branch</td>
 		</tr>
 		<tr>
-			<td>`$ git merge <branch_name>`</td>
+			<td><code>$ git merge <branch_name></code></td>
 			<td>Merge two branches</td>
 		</tr>
 	</tbody>
@@ -74,23 +74,23 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>`$ git push`</td>
+			<td><code>$ git push</code></td>
 			<td>to push the local commits to the remote repository</td>
 		</tr>
 		<tr>
-			<td>`$ git pull`</td>
+			<td><code>$ git pull</code></td>
 			<td>to pull the latest changes from the remote repository</td>
 		</tr>
 		<tr>
-			<td>`$ git clone`</td>
+			<td><code>$ git clone</code></td>
 			<td>to copy the entire code base into your local directory</td>
 		</tr>
 		<tr>
-			<td>`$ git remote`</td>
+			<td><code>$ git remote</code></td>
 			<td>to check the remote repository. By default it will be empty if the project is initialize with git locally</td>
 		</tr>
 		<tr>
-			<td>`$ git remote add origin <git_repo_url>`</td>
+			<td><code>$ git remote add origin <git_repo_url></code></td>
 			<td>to add/map remote repo to local repo</td>
 		</tr>
 	</tbody>
@@ -105,7 +105,7 @@
 
 ## Command to install Git:-
 
-`$ sudo apt-get install git`
+<code>$ sudo apt-get install git</code>
 
 
 ## Git configure your git name and email:-
@@ -119,15 +119,15 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td>`git config --global user.name '<your_name>'`</td>
+			<td><code>git config --global user.name '<your_name>'</code></td>
 			<td>Set user's name</td>
 		</tr>
 		<tr>
-			<td>`git config --global user.email '<your_email>'`</td>
+			<td><code>git config --global user.email '<your_email>'</code></td>
 			<td>Set email</td>
 		</tr>
 		<tr>
-			<td>`git config -l`</td>
+			<td><code>git config -l</code></td>
 			<td>To list all git config file</td>
 		</tr>
 	</tbody>
