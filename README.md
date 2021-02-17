@@ -19,6 +19,12 @@
 
 ## Git Basic Commands:-
 ----------------------------------
+<table>
+	<tbody>
+		<td>helo</td>
+		<td>221</td>
+	</tbody>
+</table>
 
 #### local repo:-
 > $ git init 					: Initialize the local git repository
