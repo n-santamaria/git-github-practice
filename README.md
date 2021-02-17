@@ -19,30 +19,86 @@
 
 ## Git Basic Commands:-
 ----------------------------------
+
+#### local repo:-
+
 <table>
+	<thead>
+		<tr>
+			<th>Command</th>
+			<th>Description</th>
+		</tr>
+	</thead>
 	<tbody>
-		<td>helo</td>
-		<td>221</td>
+		<tr>
+			<td>$ git init</td>
+			<td>Initialize the local git repository</td>
+		</tr>
+		<tr>
+			<td>$ git add <file></td>
+			<td>Add the files to the staging area i.e. index</td>
+		</tr>
+		<tr>
+			<td>$ git rm --cached <file></td>
+			<td>To remove the file from the staging area i.e. index</td>
+		</tr>
+		<tr>
+			<td>$ git status</td>
+			<td>To check the files in the staging area</td>
+		</tr>
+		<tr>
+			<td>$ git commit</td>
+			<td>Commit the files from the staging area i.e. index</td>
+		</tr>
+		<tr>
+			<td>$ git branch <branch_name></td>
+			<td>Create a new branch</td>
+		</tr>
+		<tr>
+			<td>$ git checkout <branch_name></td>
+			<td>Checkout to the branch</td>
+		</tr>
+		<tr>
+			<td>$ git merge <branch_name></td>
+			<td>Merge two branches</td>
+		</tr>
 	</tbody>
 </table>
 
-#### local repo:-
-> $ git init 					: Initialize the local git repository
-> $ git add <file>				: Add the files to the staging area i.e. index
-> $ git rm --cached <file>		: To remove the file from the staging area i.e. index
-> $ git status					: To check the files in the staging area
-> $ git commit					: Commit the files from the staging area i.e. index
-> $ git branch <branch_name>	: Create a new branch
-> $ git checkout <branch_name>	: Checkout to the branch
-> $ git merge <branch_name>		: Merge two branches
 
 
 #### remote repo:-
-> $ git push								: to push the local commits to the remote repository
-> $ git pull								: to pull the latest changes from the remote repository
-> $ git clone								: to copy the entire code base into your local directory
-> $ git remote								: to check the remote repository. By default it will be empty if the project is initialize with 											  git locally
-> $ git remote add origin <git_repo_url>	: to add/map remote repo to local repo
+<table>
+	<thead>
+		<tr>
+			<th>Command</th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>$ git push</td>
+			<td>to push the local commits to the remote repository</td>
+		</tr>
+		<tr>
+			<td>$ git pull</td>
+			<td>to pull the latest changes from the remote repository</td>
+		</tr>
+		<tr>
+			<td>$ git clone</td>
+			<td>to copy the entire code base into your local directory</td>
+		</tr>
+		<tr>
+			<td>$ git remote</td>
+			<td>to check the remote repository. By default it will be empty if the project is initialize with git locally</td>
+		</tr>
+		<tr>
+			<td>git remote add origin <git_repo_url></td>
+			<td>to add/map remote repo to local repo</td>
+		</tr>
+	</tbody>
+</table>
+
 
 
 ## To ignore files to commit to repository:-
